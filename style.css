@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    background-color: #111;
+}
+
+.spaceship {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: url('spaceship.png') no-repeat center/contain;
+    transform: translateX(-50%);
+}
+
+.laser {
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background-color: red;
+}
+
+.alien {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('image.png') no-repeat center/contain;
+}
